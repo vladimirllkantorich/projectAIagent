@@ -1,0 +1,27 @@
+# Local secrets and environment
+.streamlit/secrets.toml
+.env
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated app data
+data/chroma_db/
+data/index_history.json
+data/uploaded_files/
+
+# Local editor/tool metadata
+.idea/
+.agents/
+
+# Logs and temporary files
+*.log
+*.tmp
+streamlit.*.log
